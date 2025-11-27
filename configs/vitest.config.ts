@@ -15,7 +15,7 @@ export default defineConfig({
     restoreMocks: true,
     hideSkippedTests: true,
     alias: {
-      'typescript-template': path.resolve(
+      'assert-by-vitest-expect': path.resolve(
         projectRootPath,
         './src/entry-point.mts',
       ),
